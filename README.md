@@ -1,2 +1,2 @@
 # rustlang-book-notes
- my notes and code from the rust-lang book
+My notes and code from the official rust-lang book.
