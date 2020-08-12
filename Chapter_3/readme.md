@@ -58,4 +58,6 @@ While if statements are valuable, try to not clutter your code with them, think 
 
 You can use if expressions in let statements, simply write it inline ending with a semicolon, note that the result of the expression will have to return the same type in all branches of the expression or the compiler will error.
 
-There are three kinds of loops in Rust: loop, while and for. The keyword "break" can be used to exit the loop.
+There are three kinds of loops in Rust: loop, while and for. The keyword "break" can be used to exit the loop. Use for loops with element iterators for iterating over arrays since it provides more safety.
+
+You can use a Range, "(x..y)", to loop through all integers from x to y - 1. If you want you could make it go in reverse by doing "(x..y).rev()".
