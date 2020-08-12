@@ -1,4 +1,4 @@
-# 2 Programming a Guessing Game
+# 2: Programming a Guessing Game
 Variables in rust are immutable by default, use "mut" to make them mutable.
 
 "::" is used to indicated that the preceding type has an associated function with the name of what comes after the the prefix.

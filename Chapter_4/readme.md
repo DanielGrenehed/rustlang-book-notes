@@ -1,6 +1,6 @@
-# 4 Understanding Ownership
+# 4: Understanding Ownership
 
-## 1 What is Ownership?
+## 1. What is Ownership?
 Rust handles memory management at compile time, through ownership with a set of rules that are check by the compiler. This way there is no garbage collector slowing down performance at runtime.
 
 ### The stack and heap

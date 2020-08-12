@@ -1,6 +1,6 @@
-# 1 Getting started
+# 1: Getting started
 
-## 1 Installation
+## 1. Installation
 Run
 
     rustup doc
@@ -16,14 +16,14 @@ To see rust version:
     rustc --version
 
 
-## 2 Hello, World!
+## 2. Hello, World!
 Rust uses snake_case for filenames.
 To compile and run:
 
     rustc filename.rs
     ./filename (filename.exe on windows)
 
-## 3 Hello, Cargo!
+## 3. Hello, Cargo!
 Cargo - The rust build system and package manager.
 
     cargo --version

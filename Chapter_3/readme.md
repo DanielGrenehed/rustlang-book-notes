@@ -1,6 +1,6 @@
-# 3 Common Programming Concepts
+# 3: Common Programming Concepts
 
-## 1 Variables and Mutability
+## 1. Variables and Mutability
 Immutable variables cannot be changed once they have been set.
 
 Rust is immutable by default so it is easier to track down bugs since the values once set won't change.
@@ -17,7 +17,7 @@ Shadowing is replacing the value of a variable, you can alter a immutable variab
 
 Shadowing also allows one to store another type with the variable name, which is not permitted when declaring a variable mutable.
 
-## 2 Data Types
+## 2. Data Types
 Specify the new type when shadowing a variable when multiple types are possible.
 
 The Scalar types represents a single value. The primary scalar types in Rust are Integers, floating-point numbers, Booleans and characters.
@@ -39,7 +39,7 @@ Tuples have a fixed size but can store multiple values of different types. The t
 Arrays in Rust have a fixed length and can only store variables of one type. Arrays are written as a comma-separated list inside square brackets. If the number of values to store is unclear, use another type, like a Vector from standard library. Arrays are stack allocated. Specifying the type of array is done by type semi-colon number of elements inside square brackets. "let a = [3; 5];" would create an array of size 5 and populated with the value 3.
 Accessing items in an array is done like most other languages with "array_name[index]" with the position starting at 0. Accessing index outside of array's length will result in a panic program exit, not a compile-time error.
 
-## 3 Functions
+## 3. Functions
 Rust does not care where you define your functions. The function can be defined to have parameters and when it does, you can provide it with concrete values called arguments for those parameters. If you define parameters in the function signature, you also declare the type of each parameter.
 
 Statements are instructions that perform some action and do not return a value, Expressions evaluate to a resulting value.
@@ -48,10 +48,10 @@ Functions that evaluate to expressions end without semicolons, returning the las
 
 For functions that returns values declare the type of the output in de function signature, using "->" and then the type to return.
 
-## 4 Comments
+## 4. Comments
 Simple comments, comments that will be ignored when compiling or creating docs, begin with "// " and ends at the end of a line. You can also create multiline comments starting with "/\*" and ending with "\*/". Note that multiline doc-comments starts with "/**".
 
-## 5 Control Flow
+## 5. Control Flow
 The "if" expression is like many other languages. Note that the condition does not have to be inside of parentheses, but the branch is to be inside of curly brackets. The condition must evaluate to a boolean and do so explicitly. You can combine "if" with "else if" and "else" to allow for multiple conditions. The program checks each expression in turn and only executes the first body for which the condition holds true, then stops checking the rest expressions.
 
 While if statements are valuable, try to not clutter your code with them, think of where you might be able to use "match" instead for example.
