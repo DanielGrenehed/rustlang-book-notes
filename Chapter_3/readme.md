@@ -49,7 +49,7 @@ Functions that evaluate to expressions end without semicolons, returning the las
 For functions that returns values declare the type of the output in de function signature, using "->" and then the type to return.
 
 ## 4 Comments
-Simple comments, comments that will be ignored when compiling or creating docs, begin with "// " and ends at the end of a line. You can also create multiline comments starting with "/*" and ending with "*/". Note that multiline doc-comments starts with "/**".
+Simple comments, comments that will be ignored when compiling or creating docs, begin with "// " and ends at the end of a line. You can also create multiline comments starting with "/\*" and ending with "\*/". Note that multiline doc-comments starts with "/**".
 
 ## 5 Control Flow
 The "if" expression is like many other languages. Note that the condition does not have to be inside of parentheses, but the branch is to be inside of curly brackets. The condition must evaluate to a boolean and do so explicitly. You can combine "if" with "else if" and "else" to allow for multiple conditions. The program checks each expression in turn and only executes the first body for which the condition holds true, then stops checking the rest expressions.
